@@ -1,19 +1,14 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Task Manager',
-  description: 'Simple and clean task manager built with Next.js',
-  icons: {
-    icon: '/favicon.ico',
-  },
+  title: 'Task Manager 2.0',
+  description: 'Module 10 Coding Project',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-zinc-950 text-white">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
