@@ -1,3 +1,12 @@
+// ══════════════════════════════════════════════════════
+// FILE: src/app/layout.js
+// PURPOSE: Root layout for the entire Task Manager app.
+//          Imports global Tailwind CSS and sets up basic
+//          HTML structure + metadata. This is a Server
+//          Component (no interactivity needed here).
+// TYPE: Server Component
+// ══════════════════════════════════════════════════════
+
 import './globals.css';
 
 export const metadata = {
